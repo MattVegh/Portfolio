@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 2;
+  }
+
+nav {
+    position: fixed;
+    background-color: rgba(128, 128, 128);
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+header {
+    text-align: center;
+}
+.headshot{
+    /* background-img: */
+    height: 250px;
+    width: 250px;
+    background-color: rgb(197, 183, 248);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section {
+    min-height: 200px;
+    background-color: rgba(212, 211, 211);
+  }
+  
+section:nth-child(even) {
+    background-color: rgb(179, 174, 174);
+  }
+
+.project {
+    border: 1px solid black;
+    height: 125px;
+    width: 125px;
+    margin-left: 25px;
+    margin: 0 auto;
+}
