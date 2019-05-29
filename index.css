@@ -93,12 +93,20 @@ section:nth-child(even) {
   }
 
 .project {
-    border: 1px solid black;
-    height: 500px;
-    width: 500px;
+    border: 1px solid rgb(225, 244, 255);
+    height: 350px;
+    width: 350px;
     margin-left: 25px;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+
+.project a:link, .project a:visited {
+  text-decoration: none;
+  color: rgb(225, 244, 255);
+  text-align: center;
+  display: block;
+  line-height: 35px;
 }
 
 .contactlinks a:link, .contactlinks a:visited {
@@ -109,7 +117,10 @@ section:nth-child(even) {
   line-height: 26px;
 }
 
-.quizappss {
-  max-width: 100%;
+#quizappss {
+  max-width: 80%;
   height: auto;
+  object-fit: contain;
+  margin-left: 10%;
+  margin-right: 10%;
 }
