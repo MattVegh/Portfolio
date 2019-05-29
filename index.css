@@ -99,3 +99,11 @@ section:nth-child(even) {
     margin-left: 25px;
     margin: 0 auto;
 }
+
+.contactlinks a:link, .contactlinks a:visited {
+  display: block;
+  text-decoration: none;
+  color: rgb(225, 244, 255);
+  text-align: center;
+  line-height: 26px;
+}

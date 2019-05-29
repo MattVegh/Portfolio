@@ -9,11 +9,11 @@
 </head>
 <body>
     <nav role="navigation">
-        <a class="navhome" href="">MV</a>
+        <a class="navhome" href=".">MV</a>
         <span class="navbuttons">
-            <a class="aboutlink" href="">About</a>
-            <a class="portfoliolink" href="">Portfolio</a>
-            <a class="contactlink" href="">Contact</a>
+            <a id="aboutlink" href="#aboutme">About</a>
+            <a id="portfoliolink" href="#portfolio">Portfolio</a>
+            <a id="contactlink" href="#contact">Contact</a>
         </span>
     </nav>
     <main role="main">
@@ -22,16 +22,21 @@
             <div class="headshot">headshot</div>
         </header>
         
-        <section class="section aboutme">
+        <section id="aboutme">
             <h2 class="title forAboutMe">About Me</h2>
             <p>Currently in Austin, TX by way of Cleveland, I'm a student of Thinkful's FullStack Web Developer program. Coming from a background of basically only knowing how to turn a computer on, learning how to code was quite the jump. But as I continue to learn I find that I'm loving the creative freedom coding gives you. In my downtime I like to punch and kick heavy bags and also pick up and set down heavy objects several times.</p>
         </section>
-        <section class="section portfolio">
+        <section id="portfolio">
             <h2 class="title forPortfolio">Porfolio</h2>
             <div class="project 1"></div>
         </section>
-        <section class="section contact">
+        <section id="contact">
             <h2 class="title forContact">Contact</h2>
+            <div class="contactlinks">
+                <a class="email" href="mailto: mdv240@gmail.com">E-mail: mdv240@gmail.com</a>
+                <a class="github" href="https://github.com/MattVegh">GitHub!</a>
+                <a class="linkedin" href="https://www.linkedin.com/in/matthew-vegh-358132187/">LinkedIn</a>
+            </div>
         </section>
 
     </main>
