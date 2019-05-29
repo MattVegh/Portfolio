@@ -94,10 +94,11 @@ section:nth-child(even) {
 
 .project {
     border: 1px solid black;
-    height: 125px;
-    width: 125px;
+    height: 500px;
+    width: 500px;
     margin-left: 25px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .contactlinks a:link, .contactlinks a:visited {
@@ -106,4 +107,9 @@ section:nth-child(even) {
   color: rgb(225, 244, 255);
   text-align: center;
   line-height: 26px;
+}
+
+.quizappss {
+  max-width: 100%;
+  height: auto;
 }
