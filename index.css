@@ -2,41 +2,94 @@
     box-sizing: border-box;
   }
 
+html,body {
+    margin:0;
+    padding:0;
+}
+
+/* colors: 
+white blue rgb(225, 244, 255);
+dark/navy blue rgb(11, 62, 109);
+teal rgb(49, 136, 170);
+*/
+
 body {
-    font-size: 25px;
+  background-color: rgb(225, 244, 255);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main header, main h2 {
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
     color: rgb(0, 0, 0);
     text-align: center;
     line-height: 2;
+    color: rgb(225, 244, 255);
   }
+
+main section {
+  font-size: 16px;
+  font-family: 'arimo', sans-serif;
+}
 
 nav {
     position: fixed;
-    background-color: rgba(128, 128, 128);
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: rgb(11, 62, 109);
     top: 0;
     left: 0;
     right: 0;
     opacity: 1;
 }
 
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: rgb(225, 244, 255);
+}
+
+.navbuttons{
+  float: right;
+}
+
+.navbuttons a {
+  padding-right: 30px;
+}
+
+.navhome {
+  text-align: left;
+}
+
 header {
     text-align: center;
 }
+h1 {
+  color: rgb(11, 62, 109);
+}
+
 .headshot{
     /* background-img: */
     height: 250px;
     width: 250px;
-    background-color: rgb(197, 183, 248);
+    background-color: rgb(49, 81, 170);
     border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: inline-block;
 }
 
 section {
     min-height: 200px;
-    background-color: rgba(212, 211, 211);
+    background-color:rgb(49, 136, 170);
+    margin: 0;
   }
   
 section:nth-child(even) {
-    background-color: rgb(179, 174, 174);
+    color: rgb(225, 244, 255);
+    background-color: rgb(11, 62, 109);
   }
 
 .project {
